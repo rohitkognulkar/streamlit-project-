@@ -11,7 +11,7 @@ with st.form(key='login_form'):
 # Define a simple authentication function
 def authenticate(username, password):
     # This is just a placeholder for a real authentication method
-    return username == "shrirang" and password == "123"
+    return username == "Rohit" and password == "123"
 
 # Check if the login button was clicked
 if submit_button:
@@ -20,4 +20,5 @@ if submit_button:
         st.write("Welcome, ", username)
         # You can add more features for logged-in users here
     else:
+
         st.error("Invalid username or password.")
